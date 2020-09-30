@@ -10,7 +10,7 @@ This app uses JQUERY library
 - All the `code` required to get started
 - Only download all files and open `index.html` with your favorite browser :
   
-  [![Image1](https://raw.githubusercontent.com/gbsfDeveloper/requestDBAPP/master/src/querySearch.PNG?v=3&s=200)]
+  [![Image1](https://raw.githubusercontent.com/gbsfDeveloper/Detritic_Rocks_App/master/tools/Captura.PNG?v=3&s=200)]
 
 ### Clone
 
