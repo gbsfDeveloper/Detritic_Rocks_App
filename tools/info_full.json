@@ -1,0 +1,67 @@
+ [
+        {
+            "sediment":"Guijones",
+            "size":[256],
+            "Phi":[-8]
+        },
+        {
+            "sediment":"Guijas",
+            "size":[32,64,128,256],
+            "Phi":[-7,-6,-5,-4]
+        },
+        {
+            "sediment":"Guijarros",
+            "size":[4,8,16,32],
+            "Phi":[-4,-3,-2]
+        },
+        {
+            "sediment":"Gránulos",
+            "size":[2,4],
+            "Phi":[-2,-1]
+        },
+        {
+            "sediment":"Arena muy Gruesa",
+            "size":[1,2],
+            "Phi":[0]
+        },
+        {
+            "sediment":"Arena Gruesa",
+            "size":[0.5,1],
+            "Phi":[1]
+        },
+        {
+            "sediment":"Arena Media",
+            "size":[0.25,0.5],
+            "Phi":[2]
+        },
+        {
+            "sediment":"Arena Fina",
+            "size":[0.125,0.25],
+            "Phi":[3]
+        },
+        {
+            "sediment":"Arena muy Fina",
+            "size":[0.063,0.125],
+            "Phi":[4]
+        },
+        {
+            "sediment":"Limo Grueso",
+            "size":[0.031,0.063],
+            "Phi":[5]
+        },
+        {
+            "sediment":"Limo Medio",
+            "size":[0.0156,0.031],
+            "Phi":[6]
+        },
+        {
+            "sediment":"Limo Fino",
+            "size":[0.0078,0.0156],
+            "Phi":[7]
+        },
+        {
+            "sediment":"Limo muy Fino",
+            "size":[0.0039,0.0078],
+            "Phi":[8]
+        }        
+]

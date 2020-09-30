@@ -1,0 +1,18 @@
+ [
+        {
+            "sediment":"Grava",
+            "Usize":[2000]
+        },
+        {
+            "sediment":"Arena",
+            "Usize":[50,2000]
+        },
+        {
+            "sediment":"Limo",
+            "Usize":[2,50]
+        },
+        {
+            "sediment":"Arcilla",
+            "Usize":[2]
+        }      
+]
