@@ -5,12 +5,15 @@ This app uses JQUERY library
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-## Installation
+### Installation
 
-- All the `code` required to get started
-- Only download all files and open `index.html` with your favorite browser :
+- Download all files and open `index.html` with your favorite browser
   
-  [![Image1](https://raw.githubusercontent.com/gbsfDeveloper/Detritic_Rocks_App/master/tools/Captura.PNG?v=3&s=200)]
+[![Image1](https://raw.githubusercontent.com/gbsfDeveloper/Detritic_Rocks_App/master/tools/Captura.PNG?v=3&s=200)]
+  
+### How to use
+
+if you want to trt the app, can enter to this URL : `https://peramegames.com/detriticRocks/`
 
 ### Clone
 
