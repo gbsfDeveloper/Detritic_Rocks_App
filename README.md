@@ -13,7 +13,7 @@ This app uses JQUERY library
   
 ### How to use
 
-if you want to trt the app, can enter to this URL : `https://peramegames.com/detriticRocks/`
+If you want to try the app, can enter to this URL : `https://peramegames.com/detriticRocks/`
 
 ### Clone
 
