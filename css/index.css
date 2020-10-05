@@ -14,6 +14,8 @@ body{
     
 }
 
+
+
 #container{
     margin: 0px;
     width: 100%;
@@ -84,7 +86,7 @@ body{
     transition: 0.8s;
 }
 
-#resultTitle{
+.foundTitle{
     margin: 0;
     padding: 1em;
     color:black;
@@ -97,7 +99,7 @@ body{
     justify-content: center;
 }
 
-#resultData{
+.foundData{
     padding: 4em;
     text-align: justify;
 }

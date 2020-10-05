@@ -1,5 +1,15 @@
 import * as DOM from './DOMelements.js';
 
+function addResultStyles(option="add") {
+    if (option.localeCompare("add") === 0) {
+        DOM.search_resultTitle.addClass("foundTitle");
+        DOM.search_resultData.addClass("foundData");  
+    } else if(option.localeCompare("remove") === 0){
+        DOM.search_resultTitle.removeClass("foundTitle");
+        DOM.search_resultData.removeClass("foundData");
+    }
+}
+
 function getLocalData(userSize){
     $.get(`./tools/fullInfo.json`).done(function(data) {
         for (const element of data) {
@@ -12,24 +22,28 @@ function getLocalData(userSize){
             if(JSONname.localeCompare("Grava") === 0){
                 if(userSize >= JSONsize){
                     htmlView(JSONname,JSONinfo,JSONimage);
+                    addResultStyles("add");
                     break;
                 }
             }
             else if(JSONname.localeCompare("Arena") === 0){
                 if(userSize >= JSONsize && userSize < JSONsize2){
                     htmlView(JSONname,JSONinfo,JSONimage);
+                    addResultStyles("add");
                     break;  
                 }
             }
             else if(JSONname.localeCompare("Limo") === 0){
                 if(userSize >= JSONsize && userSize < JSONsize2){
                     htmlView(JSONname,JSONinfo,JSONimage);
+                    addResultStyles("add");
                     break;
                 }
             }
             else if(JSONname.localeCompare("Arcilla") === 0){
                 if(userSize > 0 && userSize < JSONsize){
                     htmlView(JSONname,JSONinfo,JSONimage);
+                    addResultStyles("add");
                     break;
                 }
             }
@@ -48,6 +62,8 @@ function isset(ref){
 }
 
 $(document).ready(function(){
+    addResultStyles("remove");
+    
     DOM.search_button.on("click",function(){
         const searchValue = DOM.search_input.val();
         getLocalData(searchValue);
