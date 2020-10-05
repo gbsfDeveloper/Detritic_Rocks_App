@@ -63,7 +63,6 @@ function isset(ref){
 
 $(document).ready(function(){
     addResultStyles("remove");
-    
     DOM.search_button.on("click",function(){
         const searchValue = DOM.search_input.val();
         getLocalData(searchValue);
