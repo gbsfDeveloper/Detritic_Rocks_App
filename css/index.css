@@ -11,10 +11,7 @@ body{
     background-image: linear-gradient(to right , #00bbff , #7cdbfe);
     display: flex;
     justify-content: stretch;
-    
 }
-
-
 
 #container{
     margin: 0px;
@@ -102,4 +99,91 @@ body{
 .foundData{
     padding: 4em;
     text-align: justify;
+}
+
+@media (max-width: 320px) { 
+    body{
+        flex-direction: column;
+    }
+
+    .foundTitle {
+        padding: 0.5em;
+        font-size: 0.9em;
+    }
+
+    #resultImage > img{
+        width: 4em;
+    }
+    .foundData {
+        padding: 1em;
+        text-align: justify;
+        font-size: 0.5rem;
+    }
+    #container{
+        display: contents;
+    }
+
+    .dataFoundedSearchSection{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 600px) and (min-width:321px){ 
+    body{
+        flex-direction: column;
+    }
+    
+    .foundTitle {
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    #resultImage > img{
+        width: 7em;
+    }
+    .foundData {
+        padding: 1em;
+        text-align: justify;
+        font-size: 0.7rem;
+    }
+
+    #container{
+        display: contents;
+    }
+
+    .dataFoundedSearchSection{
+        width: 100% !important;
+    }
+
+}
+@media (max-width: 1100px) and (min-width:601px){ 
+    .foundTitle {
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    #resultImage > img{
+        width: 10em;
+    }
+    .foundData {
+        padding: 1.5em;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:1101px){ 
+    .foundTitle {
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    #resultImage > img{
+        width: 15em;
+    }
+    .foundData {
+        padding: 1.5em;
+        text-align: justify;
+        font-size: 0.9rem;
+    }
 }
