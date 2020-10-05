@@ -1,18 +1,5 @@
 import * as DOM from './DOMelements.js';
 
-function showData(array){
-    // array - must be an array type
-    $('#databaseResults').empty();
-    if(Array.isArray(array)){
-        array.forEach(element => {
-            $('#databaseResults').append($(`<pre class="hidden"><code>${JSON.stringify(element,null,'\t')}</code></pre>`));
-        });
-    }
-    else{
-        $('#databaseResults').append($(`<p>${array}</p>`))
-    }
-}
-
 function getLocalData(userSize){
     $.get(`./tools/fullInfo.json`).done(function(data) {
         for (const element of data) {
@@ -77,16 +64,3 @@ $(document).ready(function(){
         }
     });
 });
-
-function searchInfo(value){
-    $.get(`http://localhost:4000/search/${value}`,(data)=>{
-        DOM.search_resultData.empty();
-        DOM.search_resultData.append(data.data);
-        const childText = DOM.search_resultData.contents();
-        const childNodes = DOM.search_resultData.children();
-        // const childTextTitle = childNodes[0].textContent;
-        // const childTextArticle = childText[childText['length'] - 1];
-        DOM.search_resultImage.attr('src',`${data.img}`);
-    });
-}
-
