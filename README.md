@@ -18,3 +18,7 @@ If you want to try the app, can enter to this URL : `https://peramegames.com/det
 ### Clone
 
 - Clone this repo to your local machine using `https://github.com/gbsfDeveloper/Detritic_Rocks_App`
+
+### Copyright
+
+- Reproducido de “RACEFN Glosario de Geología” por Universidad de Granada, 2020 (http://www.ugr.es/~agcasco/personal/rac_geologia/rac.htm).
